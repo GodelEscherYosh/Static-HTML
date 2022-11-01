@@ -1,0 +1,22 @@
+.subtitle {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(0,150,0);
+   }
+   .subsub {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(0,150,0);
+   }
+   .return {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+   }
+   .talktitle {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+   }
