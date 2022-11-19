@@ -8,90 +8,65 @@
 </head>
 
 <body>
-   
-        <article id = "contact">
-            <h2>Contact Me Anonymously</h2>
-            <p>Hi! I'd really like to hear from you! Since this form is meant to be anonymous, I won't be able to respond.   </p>
-
-            <form action="https://httpbin.org/get" method = "get">
-
-
-                    <fieldset>
-                        <legend>Topic of Conversation</legend>
-                        <p>
-                            <input type="radio" name = "transform" id = "Batemantransform">
-                            <label for="Batemantransform">Physics Related Research</label>
-                        </p>
-
-                        <p>
-                            <input type="radio" name = "transform" id = "fouriertransform">
-                            <label for="fouriertransform">Mathematical Related Research</label>
-                        </p>
-
-                        <p>
-                            <input type="radio" name = "transform" id = "hilberttransform">
-                            <label for="hilberttransform">Hilbert Transform</label>
-                        </p>
-
-                        <p>
-                            <input type="radio" name = "transform" id = "othertransform">
-                            <label for="othertransform">Ew! I like other transforms</label>
-                        </p>
-
-                    </fieldset>
-                    
-                    <br>
-                    <fieldset>
-                        <legend>Topic of Conversation</legend>
-                        <p>
-                            <input type="Checkbox" name = "topic" id ="Physics" value = "Physics">
-                            <label for="Physics">Physics Related Research</label>
-                        </p>
-
-                        <p>
-                            <input type="Checkbox" name = "topic" id ="math" value = "math">
-                            <label for="math">Mathematical Related Research</label>
-                        </p>
-                        <p>
-                            <input type="Checkbox" name = "topic" id ="fish" value = "fish">
-                            <label for="fish">Science Based Questions</label>
-                        </p>
-
-                        <p>
-                            <input type="Checkbox" name = "topic" id ="fish" value = "fish">
-                            <label for="fish">Website Related Questions</label>
-                        </p>
-
-                        <p>
-                            <input type="Checkbox" name = "topic" id ="otherPet" value = "otherPet">
-                            <label for="otherPet">Other</label>
-                        </p>
-                
-                    </fieldset>
-
-                    <br>
-                    <fieldset>
-                        <legend>Send Me A Note</legend>
-                        <label for="message">Your Message</label>
-
-                        <br>
-
-                        <textarea name = "message" id = "message" cols="30" rows="10" placeholder = "Type your message here"></textarea>
-                    </fieldset>
-
-                    <br>
-
-                    <button type = "submit">submit</button>
-                    <button type = "submit" formaction = "https://httpbin.org/post" formmethod = "post">Post</button>
-                    <button type = "reset">reset</button>
-
-                
-                    
-
-
-
-            </form>
-            </article>
-
-            </body>
-            </html>
+  <article id = "contact">
+    <h2>Contact Me Anonymously</h2>
+    <p>Hi! I'd really like to hear from you! Since this form is meant to be anonymous, I won't be able to respond.   </p>
+    <form action="https://httpbin.org/get" method = "get">
+      <fieldset>
+        <legend>Topic of Conversation</legend>
+        <p>
+          <input type="radio" name = "transform" id = "Batemantransform">
+          <label for="Batemantransform">Physics Related Research</label>
+        </p>
+        <p>
+          <input type="radio" name = "transform" id = "fouriertransform">
+          <label for="fouriertransform">Mathematical Related Research</label>
+        </p>
+        <p>
+          <input type="radio" name = "transform" id = "hilberttransform">
+          <label for="hilberttransform">Hilbert Transform</label>
+        </p>
+        <p>
+          <input type="radio" name = "transform" id = "othertransform">
+          <label for="othertransform">Ew! I like other transforms</label>
+        </p>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Topic of Conversation</legend>
+        <p>
+          <input type="Checkbox" name = "topic" id ="physics" value = "Physics">
+          <label for="Physics">Physics Related Research</label>
+        </p>
+        <p>
+          <input type="Checkbox" name = "topic" id ="math" value = "math">
+          <label for="math">Mathematical Related Research</label>
+        </p>
+        <p>
+          <input type="Checkbox" name = "topic" id ="science" value = "fish">
+          <label for="fish">Science Based Questions</label>
+        </p>
+        <p>
+          <input type="Checkbox" name = "topic" id ="website" value = "fish">
+          <label for="fish">Website Related Questions</label>
+        </p>
+        <p>
+          <input type="Checkbox" name = "topic" id ="other" value = "otherPet">
+          <label for="otherPet">Other</label>
+        </p>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Send Me A Note</legend>
+        <label for="message">Your Message</label>
+        <br>
+        <textarea name = "message" id = "message" cols="30" rows="10" placeholder = "Type your message here"></textarea>
+      </fieldset>
+      <br>
+      <button type = "submit" id="submit">Submit</button>
+      <button type = "reset">Reset</button>
+    </form>
+  </article>
+  <script src="annon.js"></script>
+</body>
+</html>
